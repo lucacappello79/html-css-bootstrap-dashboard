@@ -47,10 +47,6 @@ aside{
     height: 100%;
 }
 
-/* aside div{
-    background-color: rgb(31, 67, 102);
-} */
-
 .content{
     width: calc(100vw - 150px);
     height: 100%;
@@ -58,7 +54,6 @@ aside{
 }
 
 header{
-    height: 100px;
     background-color: rgb(27, 114, 232);
 }
 
@@ -80,8 +75,3 @@ header .container .row div{
 #cards-wrapper .row{
     height: 100%;
 }
-
-/* .col-8, .col-4{
-    background-color: coral;
-    height: 100%;
-} */
