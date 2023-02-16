@@ -2,10 +2,6 @@ nav{
     height: 80px;
 }
 
-/* .nav-mid{
-    background-color: rgb(229, 229, 229);
-} */
-
 .form-control{
     background-color: rgb(229, 229, 229);
 }
@@ -18,17 +14,6 @@ nav{
 .mobile-logo-wrapper{
     max-width: 60px;
 }
-/* .nav-inner div{
-    height: 100%;
-} */
-
-/* input{
-    border-radius: 50px;
-} */
-
-.alert-icon{
-    color: orange;
-}
 
 main{
     height: calc(100vh - 80px);
@@ -36,11 +21,10 @@ main{
 }
 
 aside{
-    /* filter: invert(100%); */
     background-image: url(../img/sidebar-bg.png);
     background-color: rgb(12, 4, 59);
     width: 150px;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .content{
