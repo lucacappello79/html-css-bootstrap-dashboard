@@ -73,7 +73,7 @@ aside{
 }
 
 .class-logo{
-    width: 8%;
+    width: 1.3em;
 }
 
 tr td .my-table-big, tr th:first-child{
@@ -99,7 +99,7 @@ tr td:not(:first-child), tr th:not(:first-child){
     }
 
     tr td:not(:first-child), tr th:not(:first-child){
-        width: 22%;
+        width: 28%;
         text-align: center;
     }
     
