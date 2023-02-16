@@ -91,29 +91,62 @@
 
             <header class="bg-primary text-white">
 
-                <div class="container-fluid py-3">    
+                <div class="container-fluid py-2">    
 
-                    <div class="row flex-column row-cols-md-3 flex-md-row py-2 flex-column-reverse gap-4 gap-md-0">
-                        <div class="col col-md-6 d-flex flex-column">
+                    <div class="row flex-column row-cols-md-3 flex-md-row py-2 gap-4 gap-md-0">
+                        <div class="col col-md-4 col-lg-6 d-flex flex-column">
+
                             <div class="boolean-left-top d-flex gap-3 align-items-center">
                                 <h2>Boolean</h2>
-                                <span class="opaco px-2 py-1">Piano blaze</span>
+                                <span class="badge rounded-pill bg-light text-dark">Piano Blaze</span>
+                                <!-- <span class="opaco px-2 py-1">Piano blaze</span> -->
                             </div>
-                            <div class="boolean-left-bot d-flex gap-3 align-items-center">
+
+                            <!-- <div class="boolean-left-bot d-flex gap-3 align-items-center">
                                 <span class="opaco px-2 py-1">3 app</span>
                                 <i class="fa-solid fa-angles-right"></i>
                                 <span class="opaco px-2 py-1">Boolean Mobile app</span>
                                 <span class="opaco px-2 py-1">Boolean Web app</span>
                                 <span class="opaco px-2 py-1">Boolean Blog app</span>
+                                <span class="badge bg-info text-dark">Info</span>
+                            </div> -->
+
+                            <div style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb" class="mt-2">
+                                <ol class="breadcrumb">
+
+                                  <li class="breadcrumb-item"><a href="#">
+                                    <span class="badge rounded-pill bg-warning text-dark">3 app</span>
+                                  </a></li>
+
+                                  <li class="breadcrumb-item d-lg-none"><a href="#">
+                                    <span class="badge rounded-pill bg-warning text-dark">
+                                        <i class="fa-solid fa-plus p-1 border"></i>
+                                    </span> 
+                                    </a></li>
+                            
+                                  <li class="breadcrumb-item d-none d-lg-block"><a href="#">
+                                    <span class="badge rounded-pill bg-warning text-dark">Boolean Mobile app</span>
+                                  </a></li>
+
+                                  <li class="breadcrumb-item d-none d-lg-block"><a href="#">
+                                    <span class="badge rounded-pill bg-warning text-dark">Boolean Web app</span>
+                                  </a></li>
+
+                                  <li class="breadcrumb-item d-none d-lg-block"><a href="#">
+                                    <span class="badge rounded-pill bg-warning text-dark">Boolean Blog app</span>
+                                  </a></li>
+
+                                </ol>
                             </div>
+
                         </div>
 
-                        <div class="col col-md-3">
+                        <div class="col col-md-4 col-lg-3">
                             <div class="boolean-mid-top">Studenti online negli ultimi 30 minuti</div>
                             <div class="boolean-mid-bottom fs-2 mt-2">125</div>
                          </div>   
 
-                        <div class="col col-md-3 d-flex gap-5">
+                        <div class="col col-md-4 col-lg-3 d-flex gap-5 order-first order-md-0">
                             <div class="boolean-right-top">Nuovo studente</div>
                             <div class="boolean-right-bottom">
                                 <i class="fa-solid fa-plus p-3 border"></i>
