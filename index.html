@@ -32,7 +32,7 @@
             <div class="nav-mid flex-grow-1 d-lg-flex align-items-center position-relative">
                 <i class="fa fa-search ms-2"></i>
                 <form class="form text-secondary px-1 flex-grow-1">
-                    <input class="form-control rounded-3 ps-5" type="search" placeholder="Prova a cercare: lezioni di laravel">
+                    <input class="form-control my-search-bar rounded-3 ps-5" type="search" placeholder="Prova a cercare: lezioni di laravel">
                 </form>
             </div>
 
@@ -59,21 +59,21 @@
                         <div class="home-icon">
                             <i class="fa-solid fa-house-chimney"></i>
                         </div>
-                        <div class="home-text d-md-block d-none">Home</div>
+                        <div class="home-text d-sm-block d-none">Home</div>
                     </div>
 
                     <div class="stats d-flex gap-3">
                         <div class="stats-icon">
                             <i class="fa-solid fa-chart-simple"></i>
                         </div>
-                        <div class="stats-text d-md-block d-none">Stats</div>
+                        <div class="stats-text d-sm-block d-none">Stats</div>
                     </div>
 
                     <div class="signal d-flex gap-3">
                         <div class="signal-icon">
                             <i class="fa-solid fa-signal"></i>
                         </div>
-                        <div class="signal-text d-md-block d-none">Signals</div>
+                        <div class="signal-text d-sm-block d-none">Signals</div>
                     </div>
 
             </div>
@@ -82,7 +82,7 @@
                     <div class="admin-icon">
                         <i class="fa-solid fa-gear"></i>
                     </div>
-                    <div class="admin-text d-md-block d-none">Admin</div>
+                    <div class="admin-text d-sm-block d-none">Admin</div>
                 </div>
             </div>
         </aside>
@@ -134,9 +134,9 @@
 
                         <div class="my-card my-2 bg-white">
                             
-                            <div class="card">
+                            <div class="card mb-4">
 
-                                <div class="card-header bg-warning fs-4">Prossime classi</div>
+                                <div class="card-header fs-4">Prossime classi</div>
                                 <div class="card-body">
                                     <table class="table">
                                         <thead>
@@ -173,8 +173,10 @@
 
 
                         <div class="my-card my-2 bg-white">
-                            <div class="card">
-                                <div class="card-header bg-success fs-4">F.A.Q.</div>
+
+                            <div class="card mb-4">
+
+                                <div class="card-header fs-4">F.A.Q.</div>
 
                                 <div class="card-body">
 
@@ -186,7 +188,7 @@
                                             </button>
                                           </h2>
                                           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                            <div class="accordion-body">Clicca sul " + " in alto nella sezione blu</div>
                                           </div>
                                         </div>
                                         <div class="accordion-item">
@@ -196,7 +198,7 @@
                                             </button>
                                           </h2>
                                           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                            <div class="accordion-body">Clicca sul " + " in alto nella sezione blu</div>
                                           </div>
                                         </div>
                                         <div class="accordion-item">
@@ -206,7 +208,7 @@
                                             </button>
                                           </h2>
                                           <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                            <div class="accordion-body">Clicca sul " + " in alto nella sezione blu</div>
                                           </div>
                                         </div>
                                     </div>
@@ -221,24 +223,60 @@
 
 
                     <div class="col col-lg-5">
-                        <div class="card my-2 bg-white">
+                        <div class="my-card my-2 bg-white">
 
-                            <div class="card">
-                                <div class="card-header bg-danger fs-4">Todo</div>
+                            <div class="card mb-4">
+                                <div class="card-header fs-4">Todo</div>
 
                                 <div class="card-body">
+
+                                    <div class="input-group mb-0">
+                                        <div class="input-group-text bg-white my-checkbox">
+                                            <input class="form-check-input mt-0" type="checkbox">
+                                        </div>
+                                        <input type="text" class="form-control my-text-checkbox" value="Kickoff nuove classi">
+                                    </div>
+                                    <div class="input-group mb-0">
+                                        <div class="input-group-text bg-white my-checkbox">
+                                            <input class="form-check-input mt-0" type="checkbox">
+                                        </div>
+                                        <input type="text" class="form-control my-text-checkbox" value="Lezione su Bootstrap5 in classe #88">
+                                    </div>
+                                    <div class="input-group mb-0">
+                                        <div class="input-group-text bg-white my-checkbox">
+                                            <input class="form-check-input mt-0" type="checkbox">
+                                        </div>
+                                        <input type="text" class="form-control my-text-checkbox" value="Controllare username GitHub studenti">
+                                    </div>
+                                      
+
+                                </div>
 
                             </div>
 
                         </div>
 
-                        <div class="card my-2 bg-white">
+                        <div class="my-card my-2 p-2 bg-white border border-1">
 
-                            <div class="card">
-                                <img src="img/stats.jpeg" alt="fnf">
-    
+                            <div class="card border border-1">
+                                <div>
+                                <img src="img/stats.jpeg" alt="fnf" class="img-fluid">
+                                </div>
+                                <!-- <div class="card-header pt-3 pb-4 bg-white fs-5 border border-0">Utenti Attivi</div> -->
+                                <div class="card-body p-0">
+                                    <h5 class="card-title p-2">Utenti Attivi</h5>
+                                    <h6 class="card-subtitle p-2 mb-2 text-muted">Lista utenti attivi in piattaforma nell'ultimo mese</h6>
+                                    
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item border border-1">Gennaio 1200</li>
+                                        <li class="list-group-item border border-1">Febbraio 800</li>
+                                        <li class="list-group-item border border-1">Marzo 1500</li>
+                                    </ul>
 
-                                <div class="card-body">
+                                    <div class="card-footer text-muted">
+                                        <a href="#">Visualizza report approfondito</a>
+                                    </div>
+
                                 </div>
 
                             </div>

@@ -2,7 +2,7 @@ nav{
     height: 80px;
 }
 
-.form-control{
+.my-search-bar, .card-header{
     background-color: rgb(229, 229, 229);
 }
 
@@ -49,6 +49,14 @@ header .container .row div{
 
 #cards-wrapper .row{
     height: 100%;
+}
+
+.my-checkbox{
+ border-right: none;
+}
+
+.my-text-checkbox{
+    border-left: none;
 }
 
 .fa-search{
