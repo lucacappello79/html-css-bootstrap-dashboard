@@ -59,21 +59,21 @@
                         <div class="home-icon">
                             <i class="fa-solid fa-house-chimney"></i>
                         </div>
-                        <div class="home-text d-sm-block d-none">Home</div>
+                        <div class="home-text d-md-block d-none">Home</div>
                     </div>
 
                     <div class="stats d-flex gap-3">
                         <div class="stats-icon">
                             <i class="fa-solid fa-chart-simple"></i>
                         </div>
-                        <div class="stats-text d-sm-block d-none">Stats</div>
+                        <div class="stats-text d-md-block d-none">Stats</div>
                     </div>
 
                     <div class="signal d-flex gap-3">
                         <div class="signal-icon">
                             <i class="fa-solid fa-signal"></i>
                         </div>
-                        <div class="signal-text d-sm-block d-none">Signals</div>
+                        <div class="signal-text d-md-block d-none">Signals</div>
                     </div>
 
             </div>
@@ -82,7 +82,7 @@
                     <div class="admin-icon">
                         <i class="fa-solid fa-gear"></i>
                     </div>
-                    <div class="admin-text d-sm-block d-none">Admin</div>
+                    <div class="admin-text d-md-block d-none">Admin</div>
                 </div>
             </div>
         </aside>
@@ -139,32 +139,142 @@
                                 <div class="card-header fs-4">Prossime classi</div>
                                 <div class="card-body">
                                     <table class="table">
+                                        
                                         <thead>
                                           <tr>
-                                            <th scope="col">#</th>
-                                            <th scope="col">First</th>
-                                            <th scope="col">Last</th>
-                                            <th scope="col">Handle</th>
+                                            <th scope="col">Nome</th>
+                                            <th scope="col" class="d-none d-sm-table-cell">Data Inizio</th>
+                                            <th scope="col" class="d-none d-sm-table-cell">ROI</th>
+                                            <th scope="col">Stato</th>
+                                            <th scope="col">Azioni</th>
                                           </tr>
                                         </thead>
+
                                         <tbody>
-                                          <tr>
-                                            <th scope="row">1</th>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">2</th>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">3</th>
-                                            <td colspan="2">Larry the Bird</td>
-                                            <td>@twitter</td>
-                                          </tr>
+                                         <tr class="my-3">
+                                            <td class="d-flex align-items-center my-table-big">
+                                                <div class="class-logo me-2">
+                                                    <img src="img/class-avatar.jpg" class="img-fluid" alt="fnf">
+                                                </div>
+                                                <div class="class-text">Classe 88</div>
+                                            </td>
+                                            <td class="my-table-mid d-none d-sm-table-cell">11 Gennaio</td>
+                                            <td class="d-none d-sm-table-cell">80%</td>
+                                            <td>
+                                                <span class="badge text-white bg-success">Success</span>
+                                            </td>
+                                            <td class="text-secondary">
+                                                <i class="fa-solid fa-pencil border border-secondary p-1"></i>
+                                                <i class="fa-solid fa-trash-can border border-secondary p-1"></i>
+                                            </td>
+                                         </tr>
+
+                                         <tr>
+                                            <td class="d-flex align-items-center my-table-big">
+                                                <div class="class-logo me-2">
+                                                    <img src="img/class-avatar.jpg" class="img-fluid" alt="fnf">
+                                                </div>
+                                                <div class="class-text">Classe 77</div>
+                                            </td>
+                                            <td class="my-table-mid d-none d-sm-table-cell">13 Gennaio</td>
+                                            <td class="d-none d-sm-table-cell">60%</td>
+                                            <td>
+                                                <span class="badge text-white bg-danger">Failed</span>
+                                            </td>
+                                            <td class="text-secondary">
+                                                <i class="fa-solid fa-pencil border border-secondary p-1"></i>
+                                                <i class="fa-solid fa-trash-can border border-secondary p-1"></i>
+                                            </td>
+                                         </tr>
+
+                                         <tr>
+                                            <td class="d-flex align-items-center my-table-big">
+                                                <div class="class-logo me-2">
+                                                    <img src="img/class-avatar.jpg" class="img-fluid" alt="fnf">
+                                                </div>
+                                                <div class="class-text">Classe 63</div>
+                                            </td>
+                                            <td class="my-table-mid d-none d-sm-table-cell">19 Gennaio</td>
+                                            <td class="d-none d-sm-table-cell">15%</td>
+                                            <td>
+                                                <span class="badge text-dark bg-warning">Process</span>
+                                            </td>
+                                            <td class="text-secondary">
+                                                <i class="fa-solid fa-pencil border border-secondary p-1"></i>
+                                                <i class="fa-solid fa-trash-can border border-secondary p-1"></i>
+                                            </td>
+                                         </tr>
+
+                                         <tr>
+                                            <td class="d-flex align-items-center my-table-big">
+                                                <div class="class-logo me-2">
+                                                    <img src="img/class-avatar.jpg" class="img-fluid" alt="fnf">
+                                                </div>
+                                                <div class="class-text">Classe 95</div>
+                                            </td>
+                                            <td class="my-table-mid d-none d-sm-table-cell">22 Marzo</td>
+                                            <td class="d-none d-sm-table-cell">90%</td>
+                                            <td>
+                                                <span class="badge text-white bg-success">Success</span>
+                                            </td>
+                                            <td class="text-secondary">
+                                                <i class="fa-solid fa-pencil border border-secondary p-1"></i>
+                                                <i class="fa-solid fa-trash-can border border-secondary p-1"></i>
+                                            </td>
+                                         </tr>
+
+                                         <tr>
+                                            <td class="d-flex align-items-center my-table-big">
+                                                <div class="class-logo me-2">
+                                                    <img src="img/class-avatar.jpg" class="img-fluid" alt="fnf">
+                                                </div>
+                                                <div class="class-text">Classe 50</div>
+                                            </td>
+                                            <td class="my-table-mid d-none d-sm-table-cell">04 Aprile</td>
+                                            <td class="d-none d-sm-table-cell">43%</td>
+                                            <td>
+                                                <span class="badge text-white bg-danger">Failed</span>
+                                            </td>
+                                            <td class="text-secondary">
+                                                <i class="fa-solid fa-pencil border border-secondary p-1"></i>
+                                                <i class="fa-solid fa-trash-can border border-secondary p-1"></i>
+                                            </td>
+                                         </tr>
+                                         <tr>
+                                            <td class="d-flex align-items-center my-table-big">
+                                                <div class="class-logo me-2">
+                                                    <img src="img/class-avatar.jpg" class="img-fluid" alt="fnf">
+                                                </div>
+                                                <div class="class-text">Classe 18</div>
+                                            </td>
+                                            <td class="my-table-mid d-none d-sm-table-cell">01 Gennaio</td>
+                                            <td class="d-none d-sm-table-cell">100%</td>
+                                            <td>
+                                                <span class="badge text-dark bg-warning">Process</span>
+                                            </td>
+                                            <td class="text-secondary">
+                                                <i class="fa-solid fa-pencil border border-secondary p-1"></i>
+                                                <i class="fa-solid fa-trash-can border border-secondary p-1"></i>
+                                            </td>
+                                         </tr>
+                                         <tr>
+                                            <td class="d-flex align-items-center my-table-big">
+                                                <div class="class-logo me-2">
+                                                    <img src="img/class-avatar.jpg" class="img-fluid" alt="fnf">
+                                                </div>
+                                                <div class="class-text">Classe 69</div>
+                                            </td>
+                                            <td class="my-table-mid d-none d-sm-table-cell">30 Giugno</td>
+                                            <td class="d-none d-sm-table-cell">80%</td>
+                                            <td>
+                                                <span class="badge text-white bg-success">Success</span>
+                                            </td>
+                                            <td class="text-secondary">
+                                                <i class="fa-solid fa-pencil border border-secondary p-1"></i>
+                                                <i class="fa-solid fa-trash-can border border-secondary p-1"></i>
+                                            </td>
+                                         </tr>
+
                                         </tbody>
                                       </table>
                                 </div>
@@ -231,23 +341,30 @@
                                 <div class="card-body">
 
                                     <div class="input-group mb-0">
-                                        <div class="input-group-text bg-white my-checkbox">
+                                        <div class="input-group-text bg-warning my-checkbox">
                                             <input class="form-check-input mt-0" type="checkbox">
                                         </div>
                                         <input type="text" class="form-control my-text-checkbox" value="Kickoff nuove classi">
                                     </div>
                                     <div class="input-group mb-0">
                                         <div class="input-group-text bg-white my-checkbox">
-                                            <input class="form-check-input mt-0" type="checkbox">
+                                            <input class="form-check-input mt-0" type="checkbox" checked>
                                         </div>
                                         <input type="text" class="form-control my-text-checkbox" value="Lezione su Bootstrap5 in classe #88">
                                     </div>
                                     <div class="input-group mb-0">
-                                        <div class="input-group-text bg-white my-checkbox">
+                                        <div class="input-group-text bg-warning my-checkbox">
                                             <input class="form-check-input mt-0" type="checkbox">
                                         </div>
                                         <input type="text" class="form-control my-text-checkbox" value="Controllare username GitHub studenti">
                                     </div>
+
+                                    <!-- <div class="form-check my-2 border border-1">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                          Controllare la tabella qui sopra
+                                        </label>
+                                    </div> -->
                                       
 
                                 </div>

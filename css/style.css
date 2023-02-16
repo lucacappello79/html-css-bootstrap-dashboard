@@ -6,6 +6,18 @@ nav{
     background-color: rgb(229, 229, 229);
 }
 
+.fa-search{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+
+.opaco{
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
 .nav-inner{
     height: 50%;
     width: 98%;
@@ -29,27 +41,28 @@ aside{
 
 .content{
     width: calc(100vw - 150px);
-    height: 100%;
+    overflow: auto;
+    /* height: 100%; */
     /* background-color: rgb(219, 219, 219); */
 }
 
 
-header .container .row div{
+/* header .container .row div{
     height: 100%;
     border: 1px solid black;
-}
+} */
 
-#cards-wrapper{
+/* #cards-wrapper{
     height: 100%;
-}
+} */
 
-.card{
+/* .card{
     width: 100%;
-}
+} */
 
-#cards-wrapper .row{
+/* #cards-wrapper .row{
     height: 100%;
-}
+} */
 
 .my-checkbox{
  border-right: none;
@@ -59,26 +72,35 @@ header .container .row div{
     border-left: none;
 }
 
-.fa-search{
-    position: absolute;
-    left: 10px;
-    top: 13px;
+.class-logo{
+    width: 8%;
 }
 
-.opaco{
-    font-size: 14px;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
+tr td .my-table-big, tr th:first-child{
+    width: auto;
 }
 
-@media screen and (max-width: 576px) {
+tr td .my-table-mid{
+    width: 20%;
+}
+
+tr td:not(:first-child), tr th:not(:first-child){
+    width: 15%;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
     aside{
-        background-color: rgb(12, 4, 59);
         width: 70px;
     }
 
     .content{
         width: calc(100vw - 70px);
+    }
+
+    tr td:not(:first-child), tr th:not(:first-child){
+        width: 22%;
+        text-align: center;
     }
     
 }
