@@ -60,7 +60,7 @@ header .container .row div{
 }
 
 .card{
-    height: 45%;
+    width: 100%;
 }
 
 #cards-wrapper .row{
